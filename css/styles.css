@@ -23,7 +23,7 @@ img{
   text-decoration: none;
   font-weight: 400;
   font-family: 'Montserrat' , sans-serif;
-  font-size: 1rem;
+  font-size: 1.25rem;
   padding-left: 10px;
   padding-right: 20px;
   margin-left: 0;
@@ -39,13 +39,13 @@ img{
   font-weight: 400;
   position: relative;
   font-family: 'Montserrat' , sans-serif;
-  font-size: 1rem;
+  font-size: 1.25rem;
   padding-left: 10px;
   padding-right: 20px;
 }
 
 .navbar{
-  margin-top: 60px;
+  margin-top: 40px;
   display: flex;
   flex-direction: column;
   line-height: 3;
