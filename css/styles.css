@@ -1,0 +1,397 @@
+.main{
+  margin: 0 0 0 0;
+}
+
+.nav{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-img{
+  width: 5rem;
+  margin-top: 30px;
+}
+
+img{
+  width: 100%;
+}
+
+.navbar-link{
+  color: #45b29a;
+  text-decoration: none;
+  font-weight: 400;
+  font-family: 'Montserrat' , sans-serif;
+  font-size: 1rem;
+  padding-left: 10px;
+  padding-right: 20px;
+  margin-left: 0;
+}
+
+.navbar-link:hover{
+  color: #21564b;
+}
+
+.active{
+  color: #21564b;
+  text-decoration: none;
+  font-weight: 400;
+  position: relative;
+  font-family: 'Montserrat' , sans-serif;
+  font-size: 1rem;
+  padding-left: 10px;
+  padding-right: 20px;
+}
+
+.navbar{
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  line-height: 3;
+  justify-content: center;
+  align-items: center;
+}
+
+.header{
+  background-color: #e0ebe8;
+  display: block;
+  width: 100%;
+}
+
+.heading-text{
+  font-family: 'Sacramento',sans-serif;
+  text-align: center;
+  font-size: 3rem;
+  color: #45b29a;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.subheading{
+  text-align:center;
+  color: #45b29a;
+  font-family: 'Montserrat',sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 1.2rem;
+}
+
+.section-header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 5rem;
+}
+
+.cloud-1 {
+  width: 25%;
+  float:right;
+  margin-right: 1rem;
+}
+
+.cloud-2 {
+  width: 25%;
+  margin-left: 1rem;
+  margin-bottom: 0;
+  margin-top: 1.2rem;
+}
+
+.mountain-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10rem;
+  margin-bottom: 0;
+}
+
+.main-img {
+  width: 60%;
+}
+
+.intro-img{
+  width: 25%;
+  max-width: 30%;
+  margin-bottom: 0.8rem;
+}
+
+.intro{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-subheading{
+    text-align:center;
+    color: #45b29a;
+    font-size: 1.5em;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.intro-text{
+  font-family: 'Montserrat',sans-serif;
+  text-align: center;
+  margin-right: 1.2rem;
+  margin-left: 1.2rem;
+}
+
+.skill-text{
+  text-align: center;
+  color: #1e836c;
+  font-family: 'Montserrat',sans-serif;
+  margin-top: 100px;
+  margin-bottom: 80px;
+  font-size: 2.5em;
+}
+
+.skill-1{
+  display: flex;
+}
+
+.skill-2{
+  display: flex;
+  margin-top: 1.2rem;
+}
+
+.skill-1-img{
+  width: 4.5rem;
+  margin-left: 1rem;
+  margin-bottom: 2.5rem;
+  margin-top: 2rem;
+}
+
+.skill-2-img{
+  width: 6.5rem;
+  margin-right: 1rem;
+  margin-top: 1.5rem;
+  margin-left: 1rem;
+}
+
+.skill-1-gif{
+  height: 50px;
+  width: 72px;
+  margin-left: 0;
+  margin-top: 1rem;
+}
+
+.skill-1-head{
+  margin-left: 1rem;
+  margin-right: .5rem;
+}
+
+.skill-2-head{
+  margin-left: 1rem;
+  margin-right: .5rem;
+}
+
+.skill-1-heading{
+  color: #45b29a;
+  position: absolute;
+  font-family: 'Montserrat',sans-serif;
+  font-size: 1em;
+  margin-right: .5rem;
+}
+
+.skill-2-heading{
+  color: #45b29a;
+  position: absolute;
+  font-family: 'Montserrat',sans-serif;
+  font-size: 1em;
+  margin-top: 20px;
+}
+
+.skill-1-text{
+  font-size: 0.875em;
+  font-family: 'Montserrat',sans-serif;
+  margin-top: 15px;
+  position: relative;
+}
+
+.skill-2-text{
+  font-size: 0.875em;
+  position: relative;
+  font-family: 'Montserrat',sans-serif;
+  margin-top: 20px;
+}
+
+.skills{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-head{
+  text-align: center;
+  color: #1e836c;
+  font-family: 'Montserrat',sans-serif;
+  margin-top: 100px;
+  margin-bottom: 40px;
+  font-size: 2.5em;
+}
+
+.contact-subheading{
+    text-align:center;
+    color: #45b29a;
+    font-size: 1.5em;
+    font-family: 'Montserrat',sans-serif;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.contact-text{
+  font-family: 'Montserrat',sans-serif;
+  text-align: center;
+  margin-bottom: 40px;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.btn{
+  text-align: center;
+  background: #45b29a;
+  height: 44px;
+  width: 180px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  color: #1b7f69;
+  text-decoration: none;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  border:0;
+  font-weight: 400;
+  font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+  font-size: 1em;
+  margin-bottom: 80px;
+}
+
+.btn:hover{
+  cursor: pointer;
+  background: #3fa28c;
+}
+
+.email{
+  width: 20px;
+}
+
+.footer{
+  background-color: #c5ded7;
+  height: 10em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-link{
+  color: #45b29a;
+  font-family: 'Montserrat',sans-serif;
+  text-decoration: none;
+  margin-top: 1.2rem;
+  font-size: 1.2rem;
+  padding: 0.875rem;
+}
+
+.footer-links{
+  margin-top: 2rem;
+}
+
+.footer-link:hover{
+  color:#21564b;
+}
+
+.footer-rights{
+  color: #45b29a;
+  font-family: 'Montserrat',sans-serif;
+  font-size: 14px;
+  margin-top: 3rem;
+}
+
+.footer-ref{
+  color:  #45b29a;
+  font-family: 'Montserrat',sans-serif;
+}
+
+.footer-ref:hover{
+  color: #21564b;
+}
+
+
+@media (min-width:600px) {
+  .nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .navbar{
+    margin-top: 40px;
+    margin-right: 2rem;
+    flex-direction: row;
+  }
+
+  .navbar-link{
+    font-size: 1.5rem;
+  }
+
+  .active{
+    font-size: 1.5rem;
+  }
+
+  .nav-img{
+    margin-left: 2rem;
+  }
+
+  .cloud-1{
+    width: 14rem;
+    margin-right: 17rem;
+  }
+
+  .cloud-2{
+    width: 14rem;
+    margin-left: 17rem;
+  }
+
+  .mountain-img{
+    margin-top: 15rem;
+  }
+
+  .main-img{
+    width: 35%;
+  }
+
+  .intro-img{
+    margin-top: .875rem;
+    width: 10rem;
+  }
+
+  .heading-text{
+    font-size: 4.5rem;
+  }
+
+  .subheading{
+    font-size: 1.5rem;
+  }
+
+  .intro-text,
+  .skill-1-text,
+  .skill-2-text,
+  .skill-1-heading,
+  .skill-2-heading{
+    font-size: 1.2rem;
+  }
+
+  .skill-1-gif{
+    width: 60px;
+    height: 50px;
+  }
+
+}
